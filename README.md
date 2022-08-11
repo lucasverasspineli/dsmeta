@@ -10,7 +10,7 @@ Escola Devsuperior </a> realizado na **Semana Spring React** com intuito de cria
 O projeto é um site estático onde contém dois campos que o usuário pode filtar entre a data inicial e a data final onde tem uma tabela com uma lista de vendedores com vários campos
 como o nome do vendedor, quantidade de visitas que ele fez, a soma total de vendas que ele realizou durante o período selecionado e um botão que ao clicar, é enviado 
 automaticamente uma mensagem para o celular do vendedor, informando que ele foi destaque no mês mostrando o valor do seu saldo de vendas naquele mês.
-<p>
+</p>
 
 <h2><p align="center">Apresentação do projeto</p></h2>
 </p>
@@ -19,6 +19,7 @@ automaticamente uma mensagem para o celular do vendedor, informando que ele foi 
 </h1>
 
 ### Pré-requisitos
+
 Antes de começar, você vai instalar em suas máquinas as seguintes ferramentas:
 - [Git](https://git-scm.com) 
 - [Nodejs 16 e Yarn](https://nodejs.org/en/)
@@ -28,6 +29,7 @@ Antes de começar, você vai instalar em suas máquinas as seguintes ferramentas
 
 É necessário o kit de desenvolvimento Java, pode ser utilizado o JDK 8 até as versões mais recentes.
 - [JDK 8](https://www.oracle.com/br/java/technologies/javase/javase8u211-later-archive-downloads.html)
+- [JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 
 Para testar os serviços foi usado o Postman
 - [Postman](https://www.postman.com/).
@@ -63,9 +65,13 @@ twilio.phone.to=${TWILIO_PHONE_TO}
 
 ## Implantação no Heroku
 
-- Na pasta principal do projeto dsmeta criar uma pasta.
+- Na pasta principal do projeto no back-end, criar uma pasta com o nome system.properties.
 
 📁 system.properties
+
+Dentro dessa pasta colocar : **java.runtime.version=11**
+
+> Tem que ser a mesma versão do JDK que está usando no projeto.
 
 ```bash
 # Para saber a versão do heroku
