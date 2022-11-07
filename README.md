@@ -5,6 +5,11 @@
 O projeto da <a href ="https://devsuperior.com.br/evento-sds"> 
 Escola Devsuperior </a> realizado na **Semana Spring React** com intuito de criar um aplicativo completo com as tecnologias mais demandadas do mercado, e um maior crescimento profissional.
 
+> Quando for acessar o link do projeto aguarde alguns segundos para o Backend inicializar, pois o backend e o frontend estão em servidores diferentes, caso demore aperte F5 para atualizar a página. 
+
+
+### Link do <a href ="https://dsmeta-sales-history.netlify.app/">Projeto Dsmeta</a>
+
 ## Descrição  
 <p>
 O projeto é um site estático onde contém dois campos que o usuário pode filtar entre a data inicial e a data final onde tem uma tabela com uma lista de vendedores com vários campos
